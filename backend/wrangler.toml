@@ -1,7 +1,0 @@
-name = "worker-falling-waterfall-89ad"
-compatibility_date = "2024-02-23"
-
- [vars]
-DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMGFhMzIwNDEtNjBlMC00YmQ5LThmNDgtMmE4NGRmZTUyYTg1IiwidGVuYW50X2lkIjoiOGVhMzFmNWI5ZmQ1NTNkZDg5MWI5ZTZmZGUxZDIwZTZkNmYwZWE2OWVlNTM5NzU1YjQ1MjFjNjZhZDk4NTk2OCIsImludGVybmFsX3NlY3JldCI6ImRiZmI1ZWQwLWI5MDMtNGMxOS1hMmIwLWE4N2Q2ZDkyNDgyNyJ9.OvRJyuLlW357jtJAy8lCrM11EnO8uP-RkkbokpJzt4s"
-JWT_SECRET="anand123"
-
