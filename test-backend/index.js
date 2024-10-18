@@ -7,11 +7,14 @@ const prisma = new PrismaClient();
 
 const port = 3000;
 const upload = multer({ dest: 'uploads/' });
-const userRouter = require("./routes/user");
+const userRouter = require("./routes/users");
+const blogRouter = require("./routes/blogs");
 app.post('/upload', upload.single('file'), (req, res) => {
     res.send("File uploaded successfully");
 });
+app.use(express.json());
 app.use("/user",userRouter);
+app.use("/blog",blogRouter);
 app.get('/', (req, res) => {
     res.send('Hello World!');
 }); 
