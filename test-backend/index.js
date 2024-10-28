@@ -12,6 +12,8 @@ const blogRouter = require("./routes/blogs");
 app.post('/upload', upload.single('file'), (req, res) => {
     res.send("File uploaded successfully");
 });
+var cors = require('cors');
+app.use(cors());
 app.use(express.json());
 app.use("/user",userRouter);
 app.use("/blog",blogRouter);
