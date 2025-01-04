@@ -6,6 +6,8 @@ import Signin from './pages/signin'
 import Blogs from './pages/blogs'
 import UploadBlogs from './pages/UploadBlogs'
 import Landing from './pages/Landing'
+import { Blog } from './pages/blog'
+
 function App() {
 
   return (
@@ -17,6 +19,7 @@ function App() {
     <Route path='/blogs' element={<Blogs/>}/>
     <Route path='/blogs/create' element={<UploadBlogs />}/>
     <Route path='/' element={<Landing />} />
+    <Route path='/blogs/:id' element={<Blog/>}/>
     </Routes>
     </BrowserRouter>
     </>

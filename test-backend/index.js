@@ -16,7 +16,7 @@ var cors = require('cors');
 app.use(cors());
 app.use(express.json());
 app.use("/user",userRouter);
-app.use("/blog",blogRouter);
+app.use("/blogs",blogRouter);
 app.get('/', (req, res) => {
     res.send('Hello World!');
 }); 
